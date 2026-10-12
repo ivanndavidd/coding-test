@@ -1,0 +1,11 @@
+# large data files, don't push these
+data/
+*.csv
+*.zip
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc

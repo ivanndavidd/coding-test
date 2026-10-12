@@ -1,0 +1,72 @@
+rows: 100000
+columns: ['Index', 'Customer Id', 'First Name', 'Last Name', 'Company', 'City', 'Country', 'Phone 1', 'Phone 2', 'Email', 'Subscription Date', 'Website']
+
+null values per column:
+Index                0
+Customer Id          0
+First Name           0
+Last Name            0
+Company              0
+City                 0
+Country              0
+Phone 1              0
+Phone 2              0
+Email                0
+Subscription Date    0
+Website              0
+dtype: int64
+
+duplicate rows: 0
+duplicate customer id: 0
+
+top 10 countries:
+Country
+Congo                    835
+Korea                    820
+Saudi Arabia             463
+Pitcairn Islands         456
+Saint Martin             453
+Paraguay                 445
+Canada                   444
+American Samoa           443
+Saint Kitts and Nevis    443
+Mauritania               441
+Name: count, dtype: int64
+
+top 10 companies:
+Company
+Campbell Ltd        17
+Wilkerson Ltd       17
+Booker and Sons     16
+Acosta Ltd          16
+Gregory Group       15
+Mccarty and Sons    15
+Mckenzie PLC        15
+Gomez Inc           14
+Farmer Ltd          14
+Garza Group         14
+Name: count, dtype: int64
+
+subscriptions per year:
+Subscription Date
+2020    41898
+2021    41211
+2022    16891
+Name: count, dtype: int64
+
+first subscription: 2020-01-01
+last subscription : 2022-05-29
+
+top 10 email domains:
+domain
+mckee.com          59
+pugh.com           59
+lawrence.com       57
+terrell.com        57
+gaines.com         56
+romero.com         56
+delgado.com        56
+fitzpatrick.com    55
+jacobson.com       55
+glass.com          55
+Name: count, dtype: int64

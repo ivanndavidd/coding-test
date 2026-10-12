@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# big data files, don't push these
+data/
+*.csv
+*.zip
+
+# python
+__pycache__/
+*.pyc
+
+# vector db / sqlite files
+*.json
+*.db

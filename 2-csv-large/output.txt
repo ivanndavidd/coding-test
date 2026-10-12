@@ -1,0 +1,31 @@
+
+total rows: 2000000
+
+top 10 countries:
+  Korea 16240
+  Congo 16208
+  Jordan 8428
+  Vietnam 8388
+  Suriname 8375
+  Timor-Leste 8372
+  Zimbabwe 8360
+  Slovakia (Slovak Republic) 8359
+  Netherlands 8354
+  Samoa 8354
+
+top 10 companies:
+  Bridges Group 152
+  Conway LLC 148
+  Cooke and Sons 147
+  Oneill Ltd 146
+  Shields Ltd 146
+  Cabrera Group 145
+  Dunn and Sons 144
+  Clarke Ltd 144
+  Frost PLC 143
+  Moses LLC 143
+
+subscriptions per year:
+  2020 831045
+  2021 830392
+  2022 338563
