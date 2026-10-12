@@ -3,6 +3,14 @@ name: build docker image
 on:
   push:
     branches: [main]
+    paths:
+      - '5-receipt-app/**'
+      - '.github/workflows/ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
 
 jobs:
   build:
@@ -20,6 +28,6 @@ jobs:
       - name: build and push
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ./5-receipt-app
           push: true
           tags: ghcr.io/${{ github.repository }}:latest
